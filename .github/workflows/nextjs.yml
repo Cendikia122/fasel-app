@@ -34,7 +34,7 @@ jobs:
         run: rm -rf .next/cache
 
       - name: Build and Export with Next.js
-        run: yarn build && yarn export
+        run: yarn build
         env:
           NEXT_TELEMETRY_DISABLED: 1
 
