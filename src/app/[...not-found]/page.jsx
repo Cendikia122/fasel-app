@@ -18,8 +18,7 @@ export function generateStaticParams() {
   
   export const dynamic = "force-static";
 
-  export default function NotFoundPage() {
+  export default function CustomNotFoundPage() { 
     return <h1>Page Not Found</h1>;
   }
   
-
