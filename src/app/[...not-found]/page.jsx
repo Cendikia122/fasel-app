@@ -12,4 +12,14 @@ const NotFoundPage = () => {
     );
 };
 
-export default NotFoundPage;
+export function generateStaticParams() {
+    return [{ slug: "not-found" }]; // Static parameter untuk ekspor
+  }
+  
+  export const dynamic = "force-static";
+
+  export default function NotFoundPage() {
+    return <h1>Page Not Found</h1>;
+  }
+  
+

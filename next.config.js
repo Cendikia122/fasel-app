@@ -6,4 +6,7 @@ const nextConfig = {
     distDir: 'dist',
   }
    
-  module.exports = nextConfig
+  module.exports = {
+    output: 'standalone', // Untuk menjalankan Next.js dengan server
+  };
+  
