@@ -26,7 +26,7 @@ const SingleBanner5 = ({ banner }) => {
                 </div>
             </div>
             <div className="banner-shape-bg">
-                <Image src={`/assets/img/shape/${shape}`} alt="Shape" />
+                <img src={`/assets/img/shape/${shape}`} alt="Shape" />
             </div>
         </>
     );
