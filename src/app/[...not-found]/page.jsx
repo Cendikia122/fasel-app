@@ -10,6 +10,10 @@ const NotFoundPage = () => {
     );
 };
 
+export function generateStaticParams() {
+    return [];
+}
+
 export const dynamic = "force-static";
 
 export default NotFoundPage;
