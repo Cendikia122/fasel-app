@@ -1,5 +1,6 @@
 import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
 import PartnerStyle1 from '@/components/partner/PartnerStyle1';
+import PriceStyle1 from '@/components/price/PriceStyle1';
 import ProcessStyle1 from '@/components/process/ProcessStyle1';
 import RequestCallStyle1 from '@/components/request/RequestCallStyle1';
 import ServicesStyle1 from '@/components/services/ServicesStyle1';
@@ -18,6 +19,7 @@ const ServicesPage = () => {
                 <ProcessStyle1 />
                 <PartnerStyle1 sectionClass="default-padding bg-gray" />
                 <TeamStyle1 teamTitle={true} />
+                <RequestCallStyle1 />
             </LayoutStyle7>
         </>
     );
